@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-400 text-white py-8">
+    <footer className="text-white py-8">
       <div className="flex flex-col items-center">
         <p className="text-lg">Let's Connect</p>
         <a
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="mt-4 flex flex-col items-center">
         <p className="text-lg">Find Me on GitHub</p>
         <a
-          className="text-2xl font-bold text-blue-800 hover:text-cyan-400"
+          className="text-2xl font-bold text-orange-600 hover:text-orange-400"
           href="https://github.com/willyvcodes"
           target="_blank"
           rel="noreferrer"

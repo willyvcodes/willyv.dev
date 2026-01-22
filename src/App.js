@@ -17,7 +17,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="flex flex-col bg-blue-900 min-h-screen">
+    <div className="flex flex-col bg-transparent text-gray-100 selection:bg-indigo-500/30 min-h-screen">
       <Header y={scrollY} />
       <Main />
       <Footer />

@@ -14,7 +14,7 @@ const Header = ({ y }) => {
 
   const renderTabs = (tabs) => {
     return tabs.map((tab, index) => (
-      <a className="hover:text-cyan-400 duration-200" href={tab.link}>
+      <a className="hover:text-orange-400 duration-200" href={tab.link}>
         <p>{tab.name}</p>
       </a>
     ));
@@ -23,7 +23,7 @@ const Header = ({ y }) => {
   return (
     <header
       className={`sticky top-0 z-[10] px-4 lg:px-8 py-6 flex justify-between items-center sm:tracking-normal md:tracking-wide lg:tracking-wider duration-200 shadow-sm ${
-        y > 0 ? "bg-blue-950" : "bg-transparent"
+        y > 0 ? "bg-slate-900" : "bg-transparent"
       }`}
     >
       <h2 className="font-medium" href="#intro">

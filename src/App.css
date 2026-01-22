@@ -4,7 +4,6 @@
 
 html {
   scroll-behavior: smooth;
-  color: white;
 }
 
 * {
@@ -15,4 +14,9 @@ html {
 /* custom css */
 * * {
   font-size: inherit;
+}
+
+body {
+  background: #0b0f19;
+  color: #e5e7eb;
 }
