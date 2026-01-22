@@ -2,7 +2,6 @@ import React from "react";
 import { AiFillGithub, AiOutlineOrderedList } from "react-icons/ai";
 import { FaTools  } from "react-icons/fa";
 import { MdPointOfSale } from "react-icons/md";
-import { IoMdChatbubbles } from "react-icons/io";
 
 const Projects = () => {
   const projects = [
