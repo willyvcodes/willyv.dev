@@ -1,22 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html {
-  scroll-behavior: smooth;
-}
-
-* {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-}
-
-/* custom css */
-* * {
-  font-size: inherit;
-}
-
-body {
-  background: #0b0f19;
-  color: #e5e7eb;
+.particle-field {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  cursor: crosshair;
+  touch-action: none;
 }
